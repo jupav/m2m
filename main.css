@@ -1,0 +1,293 @@
+body {
+    background-image: url(images/m2m_bg.png);
+  
+}
+
+a {
+   text-decoration: none;
+    color: inherit;
+}
+
+h3 {
+    padding:0;
+    margin:0;
+    margin-bottom: 1em;
+}
+
+footer {
+    background-color: rgba(87,87,89,0.4);
+    height:2em;
+    width: 100%;
+    color: white;
+    font-style: normal;
+    font-family:helvetica;
+    font-size: 0.8em;
+    padding-top: 1em;
+    margin-top:2em;
+}
+
+header {
+    padding-top: 2em;
+}
+
+nav {
+    width: 100%;
+    padding-top: 2em;
+    font-size: 20px;
+    padding-bottom: 1.5em;
+}
+
+nav a:hover {
+    background-color: rgba(87,87,89,0.4);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    list-style-type: none;
+    margin:0;
+}
+
+li {
+    display:inline;
+    padding-right: 3em;
+   
+}
+
+article {
+    border:solid;
+    height:15em;
+    border-color: rgba(87,87,89,0.4);
+    border-radius: 15px;
+    padding: 1%;
+}
+
+#wrapper {
+    height:auto;
+    background-color: white;
+    margin-left:auto;
+    margin-right:auto;
+    width:72%;
+    text-align: center;
+    
+    box-shadow: solid;
+    
+}
+
+/*HOME*/
+
+#mainhome {
+    width: inherit;
+    display: inline;
+    vertical-align: middle;
+}
+
+#latestmags {
+    width:100%;
+    display:inline;
+    
+}
+
+#latestmags img {
+    padding-top: 2em;
+    width:20%;
+    padding-right: 4%
+}
+
+#twitter {
+    width: 38%;
+    height: auto;
+    margin-top: 2em;
+    display: inline-block;
+    vertical-align: middle;
+    
+    
+}
+
+#aboutbrief {
+    width:50%;
+    display: inline-block;
+    padding-left: 3%;
+    font-size: 1.5em;
+    vertical-align: middle;
+        
+    
+}
+
+#sponsors {
+    display: inline;
+    width:100%;
+    height: inherit;
+    padding-top: 2em; 
+
+}
+
+#sponsors img {
+    display: inline;
+    width: 20%;
+    padding-right: 2em;
+    
+}
+
+/*ABOUT*/
+
+#mainabout {
+    width: inherit;
+    display: inline;
+    vertical-align: middle;
+    font-family: helvetica;
+}
+
+#whoarewe {
+    padding-top:2em;
+    width:40%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 6%;
+    
+}
+
+#distribution {
+    padding-top:2em;
+    width:40%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#team {
+    margin-top: 1.5em;
+    width:100%;
+    display: inline-block;
+    
+}
+
+#staff_image {
+    margin-top: 1em;
+    width:30%;
+    display: inline-block;
+}
+
+#staff_text {
+    margin-top: 1em;
+    text-align: left;
+    padding-left: 2%;
+    margin-top: 1em;
+    width:60%;
+    display: inline-block;
+    background-color: rgba(87,87,89,0.1);
+    height: inherit;
+    vertical-align: top;
+}
+
+#staff_text a:hover {
+    font-style: italic;
+}
+
+/*MAGAZINES*/
+
+#mainmags {
+    width: inherit;
+    display: inline;
+    vertical-align: middle;
+    font-family: helvetica;
+}
+
+#featuredmag {
+    width: 100%;
+    display: inline-block;
+}
+
+#magimage {
+    margin-top:1em;
+    width:35%;
+    margin-left: 1em;
+    display: inline-block;
+    text-align: left;
+}
+
+#maginfo {
+    margin-left: 3%;
+    margin-top: 1em;
+    width:55%;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    background-color: rgba(87,87,89,0.1);
+    height:inherit;
+    
+}
+
+#covers {
+    margin-top: 3em;
+}
+
+#covers img {
+    width: 30%;
+    padding:.6em;
+}
+
+/*CONTACT*/
+#maincontact {
+    width: inherit;
+    display: inline;
+    vertical-align: middle;
+    font-family: helvetica;
+    position: relative;
+        
+
+}
+
+#address {
+    padding-top:2em;
+    width:40%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 6%;
+    height:auto;
+
+    
+}
+
+#map {
+    padding-top:2em;
+    width:40%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align:center;
+    padding: 1em;
+    height:auto;
+        
+}
+
+/*ADVERTISE*/
+
+#mainadvert {
+    width: inherit;
+    display: inline;
+    vertical-align: middle;
+    font-family: helvetica;
+    position: relative;
+    
+    height:auto;
+}
+
+#advertinfo {
+    position:relative;
+    display: inline-block;
+    width:50%;
+    margin-left: 5%;
+    height:inherit;
+}
+
+#advertexample {
+    position:relative;
+    display: inline-block;
+    width:30%;
+    margin-right: 5%;
+    height:inherit;
+}
+
+#advertexample img {
+    width:100%;
+}
+
